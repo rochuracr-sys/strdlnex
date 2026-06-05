@@ -1,0 +1,2 @@
+# strdlnex
+consultar_estado_solicitudes
