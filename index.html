@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Consulta de Solicitudes</title>
+        <link rel="stylesheet" href="style-dni.css" />
+    </head>
+    <body>
+        <div class="header">
+            <div class="header-icon">
+                <img src = fise.jpg>
+            </div>
+            <div>
+                <div class="header-title">CONSULTA DE SOLICITUDES</div>
+                <div class="header-sub">Búsqueda por número de DNI</div>
+            </div>
+        </div>
+        <div class="search-card">
+            <label for="dniInput">Número de DNI</label>
+            <div class="input-row">
+                <input type="text" id="dniInput"
+                    placeholder="Ej: 12345678"
+                    minlength="8"
+                    maxlength="8"
+                    autocomplete="off"
+                    spellcheck="false">
+                <button onclick="buscar()">CONSULTAR</button>
+            </div>
+        </div>
+
+        <div class="result-area" id="resultArea"></div>
+
+        <div class="footer">
+            FISE<br>
+            Fondo de Inclusion Social Energetico
+        </div>
+        <script src="app-dni.js"></script>
+    </body>
+</html>
