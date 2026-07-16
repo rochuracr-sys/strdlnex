@@ -144,6 +144,7 @@
   .section {
     padding: 18px 22px;
     border-bottom: 1px solid var(--border);
+    
   }
   .section:last-child { border-bottom: none; }
 
@@ -151,6 +152,7 @@
     font-size: .85rem; font-weight: 700;
     text-transform: uppercase; letter-spacing: .1em;
     color: var(--muted); margin-bottom: 12px;
+    display: flex; align-items: center; justify-content: center;
   }
 
   /* Campos de texto */
